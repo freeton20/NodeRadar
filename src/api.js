@@ -17,7 +17,9 @@ const getIps = async () => {
 
 const geoIp = async () => {
     let ips = await getIps();
-
+    ips = ips.filter(ip => {
+        return ip !== '109.199.165.33'
+    });
     const points = await Promise.all(
         ips.map(ip => {
             let url = `${config.geoIp}${ip}/`;

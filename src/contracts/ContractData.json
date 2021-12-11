@@ -7,7 +7,17 @@
 		],
 		"functions": [
 			{
-				"name": "update",
+				"name": "addIp",
+				"inputs": [
+					{
+						"name": "ip",
+						"type": "string"
+					}
+				],
+				"outputs": []
+			},
+			{
+				"name": "addChunk",
 				"inputs": [
 					{
 						"name": "i",
@@ -15,6 +25,21 @@
 					}
 				],
 				"outputs": []
+			},
+			{
+				"name": "clean",
+				"inputs": [],
+				"outputs": []
+			},
+			{
+				"name": "countNodes",
+				"inputs": [],
+				"outputs": [
+					{
+						"name": "value0",
+						"type": "uint256"
+					}
+				]
 			},
 			{
 				"name": "constructor",
@@ -53,5 +78,5 @@
 			}
 		]
 	},
-	"tvc": "te6ccgECEgEAAdAAAgE0AwEBAcACAEPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBCSK7VMg4wMgwP/jAiDA/uMC8gsPBQQRAoztRNDXScMB+GYh2zzTAAGOEoECANcYIPkBWPhCIPhl+RDyqN7TPwH4QyG58rQg+COBA+iogggbd0CgufK0+GPTHwHbPPI8CAYDSu1E0NdJwwH4ZiLQ1wsDqTgA3CHHAOMCIdcNH/K8IeMDAds88jwODgYDPCCCEES0eN264wIgghBVmPW4uuMCIIIQaLVfP7rjAgwJBwIiMPhCbuMA+Ebyc9H4ANs88gAICgFK7UTQ10nCAYqOGnDtRND0BXBtbwL4aoBA9A7yvdcL//hicPhj4g0DNDD4RvLgTPhCbuMA0x/0BFlvAgHR2zzbPPIADQsKADD4SvhD+ELIy//LP8+DAW8iAssf9ADJ7VQAJPhFIG6SMHDe+EK68uBk+AD4agFcMNHbPPhKIY4ijQRwAAAAAAAAAAAAAAAAMS0eN2DIzgFvIgLLH/QAyXD7AN7yAA0AMu1E0NP/0z/TADHTH/QEWW8CAdH4avhj+GIACvhG8uBMAgr0pCD0oREQABRzb2wgMC41Mi4wAAA="
+	"tvc": "te6ccgECGgEAAuQAAgE0AwEBAcACAEPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBCSK7VMg4wMgwP/jAiDA/uMC8gsXBQQZAoztRNDXScMB+GYh2zzTAAGOEoECANcYIPkBWPhCIPhl+RDyqN7TPwH4QyG58rQg+COBA+iogggbd0CgufK0+GPTHwHbPPI8CwYDSu1E0NdJwwH4ZiLQ1wsDqTgA3CHHAOMCIdcNH/K8IeMDAds88jwWFgYCKCCCEEh4WK274wIgghBoyPh+u+MCDAcCKCCCEGi1Xz+64wIgghBoyPh+uuMCCggDgDD4RvLgTPhCbuMA0ds8IY4oI9DTAfpAMDHIz4cgzo0EAAAAAAAAAAAAAAAADoyPh+jPFsv/yXD7AJEw4ts88gAVCRMACPhKbxACIjD4Qm7jAPhG8nPR+ADbPPIACxMBSu1E0NdJwgGKjhpw7UTQ9AVwbW8C+GqAQPQO8r3XC//4YnD4Y+IVBFAgghA9GGTcuuMCIIIQRDB97rrjAiCCEES0eN264wIgghBIeFituuMCEhAPDQM0MPhG8uBM+EJu4wDTH/QEWW8CAdHbPNs88gAVDhMAbvhFIG6SMHDe+EK68uBk+ABwlVMBbxC5jhz4SlMSbxGAIPQP8rIBbyIhpFUggCD0F28C+Gqk6FsBXDDR2zz4SiGOIo0EcAAAAAAAAAAAAAAAADEtHjdgyM4BbyICyx/0AMlw+wDe8gAVAyQw+Eby4Ez4Qm7jANHbPNs88gAVERMALPhFIG6SMHDe+EK68uBk+ABwbW8C+GoDJjD4RvLgTPhCbuMA1NHbPNs88gAVFBMAMPhK+EP4QsjL/8s/z4MBbyICyx/0AMntVABA+EUgbpIwcN74Qrry4GT4APhKbyIhpFUggCD0F28C+GoAMu1E0NP/0z/TADHTH/QEWW8CAdH4avhj+GIACvhG8uBMAgr0pCD0oRkYABRzb2wgMC41Mi4wAAA="
 }

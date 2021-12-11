@@ -1,4 +1,4 @@
-# Node Radar (fake data now)
+# Node Radar (updated 11.12.2021)
 
 ## Usage
 
