@@ -20,7 +20,7 @@ const geoIp = async () => {
 
     const points = await Promise.all(
         ips.map(ip => {
-            let url = `${config.geoIp}${ip}`;
+            let url = `${config.geoIp}${ip}/`;
             return fetch(url)
                 .then(response => response.json())
                 .catch(() => undefined);
