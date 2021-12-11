@@ -1,4 +1,4 @@
-const contract = "0:16cbbd32b641a233a8897ab294fb2916cfb685a7203caddafd5c7f2e36c51c30";
+const contract = "0:e84e87baca40c8b972c686d8408519c74d0de46a6f1b1f6edcdcd7e4dfb11338";
 
 const geoIp = "https://freeton.blog/";
 
