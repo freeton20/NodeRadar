@@ -2,7 +2,7 @@
 <div>
     <yandex-map style="height: 100vh;"
         :coords="coords"
-        :zoom="3" 
+        :zoom="4" 
         @click="onClick"
         :settings="settings"
         :options="options"                
@@ -48,8 +48,10 @@ export default {
     },
   }, 
   mounted() {
+      this.$store.dispatch("changeShowLoader", true);
       geoIp().then((r)=>{     
       this.points = r;     
+      this.$store.dispatch("changeShowLoader", false);
     });
   }
 };
