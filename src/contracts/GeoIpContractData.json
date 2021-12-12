@@ -1,0 +1,155 @@
+{
+	"abi": {
+		"ABI version": 2,
+		"version": "2.2",
+		"header": [
+			"pubkey",
+			"time"
+		],
+		"functions": [
+			{
+				"name": "addPoint",
+				"inputs": [
+					{
+						"components": [
+							{
+								"name": "lat",
+								"type": "string"
+							},
+							{
+								"name": "long",
+								"type": "string"
+							},
+							{
+								"name": "asnOrganization",
+								"type": "string"
+							},
+							{
+								"name": "ip",
+								"type": "string"
+							}
+						],
+						"name": "p",
+						"type": "tuple"
+					}
+				],
+				"outputs": []
+			},
+			{
+				"name": "addChunk",
+				"inputs": [
+					{
+						"components": [
+							{
+								"name": "lat",
+								"type": "string"
+							},
+							{
+								"name": "long",
+								"type": "string"
+							},
+							{
+								"name": "asnOrganization",
+								"type": "string"
+							},
+							{
+								"name": "ip",
+								"type": "string"
+							}
+						],
+						"name": "p",
+						"type": "tuple[]"
+					}
+				],
+				"outputs": []
+			},
+			{
+				"name": "clean",
+				"inputs": [],
+				"outputs": []
+			},
+			{
+				"name": "countNodes",
+				"inputs": [],
+				"outputs": [
+					{
+						"name": "value0",
+						"type": "uint256"
+					}
+				]
+			},
+			{
+				"name": "constructor",
+				"inputs": [],
+				"outputs": []
+			},
+			{
+				"name": "coords",
+				"inputs": [],
+				"outputs": [
+					{
+						"components": [
+							{
+								"name": "lat",
+								"type": "string"
+							},
+							{
+								"name": "long",
+								"type": "string"
+							},
+							{
+								"name": "asnOrganization",
+								"type": "string"
+							},
+							{
+								"name": "ip",
+								"type": "string"
+							}
+						],
+						"name": "coords",
+						"type": "tuple[]"
+					}
+				]
+			}
+		],
+		"data": [],
+		"events": [],
+		"fields": [
+			{
+				"name": "_pubkey",
+				"type": "uint256"
+			},
+			{
+				"name": "_timestamp",
+				"type": "uint64"
+			},
+			{
+				"name": "_constructorFlag",
+				"type": "bool"
+			},
+			{
+				"components": [
+					{
+						"name": "lat",
+						"type": "string"
+					},
+					{
+						"name": "long",
+						"type": "string"
+					},
+					{
+						"name": "asnOrganization",
+						"type": "string"
+					},
+					{
+						"name": "ip",
+						"type": "string"
+					}
+				],
+				"name": "coords",
+				"type": "tuple[]"
+			}
+		]
+	},
+	"tvc": "te6ccgECHQEAAyMAAgE0AwEBAcACAEPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBCSK7VMg4wMgwP/jAiDA/uMC8gsaBQQcAq7tRNDXScMB+GYh2zzTAAGOHYECANcYIPkBAdMAAZTT/wMBkwL4QuIg+GX5EPKoldMAAfJ64tM/AfhDIbnytCD4I4ED6KiCCBt3QKC58rT4Y9MfAds88jwLBgNK7UTQ10nDAfhmItDXCwOpOADcIccA4wIh1w0f8rwh4wMB2zzyPBkZBgIoIIIQYzURy7vjAiCCEGjI+H674wIMBwIoIIIQaLVfP7rjAiCCEGjI+H664wIKCAOCMPhG8uBM+EJu4wDR2zwhjigj0NMB+kAwMcjPhyDOjQQAAAAAAAAAAAAAAAAOjI+H6M8Wy//JcPsAkTDiMNs88gAYCRUACPhKbxACIjD4Qm7jAPhG8nPR+ADbPPIACxUBSu1E0NdJwgGOGnDtRND0BXBtbwL4aoBA9A7yvdcL//hicPhj4w0YBFAgghAQIBiUuuMCIIIQMaJGRrrjAiCCEEQwfe664wIgghBjNRHLuuMCFBAODQFcMNHbPPhKIY4ijQRwAAAAAAAAAAAAAAAAOM1EcuDIzgFvIgLLH/QAyXD7AN7yABgDJjD4RvLgTPhCbuMA0ds8MNs88gAYDxUALPhFIG6SMHDe+EK68uBk+ABwbW8C+GoDNjD4RvLgTPhCbuMA0x/0BFlvAgHR2zww2zzyABgRFQE2+EUgbpIwcN74Qrry4GT4AHCVUwFvELmOgOhbEgJA+EpTEm8RgCD0DvKy2zzbPAFvIiGkVSCAIPRDbwL4aqQTFwAO1NTU1NFvBAM4MPhG8uBM+EJu4wDU1NTUVTBvBAHR2zww2zzyABgWFQAw+Er4Q/hCyMv/yz/PgwFvIgLLH/QAye1UAUj4RSBukjBw3vhCuvLgZPgA+EoB2zwBbyIhpFUggCD0Q28C+GoXABJvJF4gyMzMzMwAMu1E0NP/0z/TADHTH/QEWW8CAdH4avhj+GIACvhG8uBMAgr0pCD0oRwbABRzb2wgMC41My4wAAA="
+}
